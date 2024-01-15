@@ -1,0 +1,98 @@
+body{
+    font-family: 'Mulish', sans-serif;
+}
+header, main{
+    margin: 30px 135px 100px 135px;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links > ul{
+    display: flex;
+    list-style: none;
+    padding: 8px 12px;
+    position: relative;
+    gap: 44px;
+}
+.nav-links > ul a{
+    color: #424247;
+    text-decoration: none;
+    font-size: 18px;
+}
+#orange-color{
+    color: #FF5400;
+}
+.header-text{
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    width: 1500px;
+    height: 500px;
+    border-radius: 16px;
+}
+.header-text h1{
+    font-size: 64px;
+    font-weight: 800;
+    color: #fff;
+    padding: 106px 287px 24px 287px;
+}
+.header-text p{
+    padding: 24px 247px 48px 247px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+.text-input{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    margin: 0 185px 106px 185px;
+    
+   
+}
+.text-input input{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+
+}
+.When-input, .Select-input{
+   background-color: #FFF;
+   border-radius: 8px;
+   text-align: center;
+   padding: 0 14px;
+}
+.find-btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background:#FF5400;
+    border: none;
+    gap: 0px;
+}
+.find-btn a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+
