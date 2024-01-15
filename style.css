@@ -16,6 +16,9 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+.menu{
+    display: none;
+}
 .nav-links > ul{
     display: flex;
     list-style: none;
@@ -49,32 +52,33 @@ nav{
     padding: 106px 287px 24px 287px;
 }
 .header-text p{
-    padding: 24px 247px 48px 247px;
+    padding: 0 247px 48px 247px;
     color: #fff;
     font-size: 16px;
     font-weight: 400;
 }
 .text-input{
+    display: flex;
+    justify-content: space-around;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
-    display: inline-flex;
     padding: 16px;
-    align-items: flex-start;
     gap: 24px;
     margin: 0 185px 106px 185px;
-    
-   
 }
-.text-input input{
+.When-input input, .Select-input input, .where-input  input {
     width: 174px;
     height: 52px;
     border-radius: 8px;
     background: #FFF;
     border: none;
 
-}
+} 
 .When-input, .Select-input{
-   background-color: #FFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   background: #FFF;
    border-radius: 8px;
    text-align: center;
    padding: 0 14px;
@@ -95,4 +99,48 @@ nav{
     color: #FFF;
 }
 
+
+
+
+
+
+
+
+/* media queary for responsive website */
+
+@media screen and (max-width: 600px){
+   header, main{
+    margin: 10px;
+   }
+    .nav-links > ul{
+        flex-direction: column;
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .header-text{
+        width: 335px;
+        height: 483px;
+    }
+    .header-text h1{
+        font-size: 20px;
+        padding: 32px 65px 5px 65px;
+    }
+    .header-text p{
+        padding: 0 15px 10px 15px;
+    }
+    .text-input{
+        display: grid;
+        grid-template-columns: 1;
+        align-items: center;
+        margin: 0 20px;
+        width: 256px;
+        height: 279px;
+    }
+    .text-input input, .find-btn{
+        width: auto;
+    }
+}
+    
 
