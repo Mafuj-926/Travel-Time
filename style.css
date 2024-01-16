@@ -209,9 +209,101 @@ nav{
     margin: 20px 180px 20px 480px;
 }
 /* New Section Styles */
-
-
-
+.best-week-area{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(41, 206, 246, 0.05);
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    border-radius: 16px;
+}
+.best-week-text{
+    padding: 20px 35px;
+}
+.best-week-text h1{
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+.best-week-text p, .newsletter-text p{
+    color: rgba(19, 19, 24, 0.70);
+}
+.best-week-area img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.best-week-area ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+/* news-letter Styles */
+.news-letter{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.newsletter-text{
+    width: 474px;
+    height: 330px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+}
+.newsletter-text h1{
+    font-size: 24px;
+    font-weight: 800;
+}
+.line{
+    width: 393px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+}
+.newsletter-text input{
+    width: 377px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    margin-bottom: 16px;
+    padding-left: 16px;
+}
+.newsletter-text button{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+    margin-top: 20px;
+}
+.news-img{
+    width: 672px;
+    height: 422px;
+    position: relative;
+}
+.saveup-text{
+    width: 324px;
+    height: 120px;
+    border-radius: 16px;
+    background: #FF5400;
+    color: #FFF;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: rotate(-16deg);
+}
+.saveup-text h1{
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 2px;
+}
 
 
 
@@ -255,7 +347,7 @@ nav{
     .text-input input, .find-btn{
         width: auto;
     }
-    .popular-tour{
+    .popular-tour, .best-week-area, .best-week-area ul, .news-letter{
         flex-direction: column;
         margin-right: 10px;
     }
@@ -294,6 +386,33 @@ nav{
     .card-3{
         margin: 0px 15px 15px 15px;
     }
+    .best-week-text p{
+        text-align: center;
+        font-size: 10px;
+    }
+    .cox-img{
+        margin-left: 30px;
+    }
+    .newsletter-text{
+        width: 250px;
+        height: 350px;
+        margin-bottom: 50px;
+    }
+    .newsletter-text h5, .newsletter-text input, .newsletter-text button{
+        width: 230px;
+    }
+    .news-img img{
+        width: 340px;
+        height: 300px;
+    }
+    .saveup-text{
+        font-size: 0px;
+        width: 200px;
+        height: 78px;
+        left: 20%;
+        top: 45%;
+    }
+    
 }
 
     
