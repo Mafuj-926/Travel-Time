@@ -185,6 +185,10 @@ nav{
     justify-content: space-around;
     align-items: center;
 }
+.card h3, .card-3 > h3{
+    font-size: 24px;
+    font-weight: 800;
+}
 .card-1, .card-3{
     width: 573px;
     height: 210px;
@@ -204,6 +208,7 @@ nav{
 .card-3{
     margin: 20px 180px 20px 480px;
 }
+/* New Section Styles */
 
 
 
@@ -290,5 +295,6 @@ nav{
         margin: 0px 15px 15px 15px;
     }
 }
+
     
 
