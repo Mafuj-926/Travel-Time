@@ -304,7 +304,23 @@ nav{
     font-weight: 800;
     margin-top: 2px;
 }
-
+footer{
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 110px 284px;
+}
+footer img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 30px;
+}
+.bottom-line{
+    width: 1372px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
 
 
@@ -386,6 +402,9 @@ nav{
     .card-3{
         margin: 0px 15px 15px 15px;
     }
+    .best-week-text h1{
+        font-size: 30px;
+    }
     .best-week-text p{
         text-align: center;
         font-size: 10px;
@@ -401,7 +420,7 @@ nav{
     .newsletter-text h5, .newsletter-text input, .newsletter-text button{
         width: 230px;
     }
-    .news-img img{
+    .news-img, .news-img img{
         width: 340px;
         height: 300px;
     }
@@ -409,10 +428,45 @@ nav{
         font-size: 0px;
         width: 200px;
         height: 78px;
-        left: 20%;
-        top: 45%;
+        left: 39%;
+        top: 63%;
     }
-    
+    footer{
+        width: 340px;
+        height: 469px;
+        padding: 10px;
+    }
+    .bottom-line{
+        width: 335px;
+        height: 1px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1400px){
+    header, main{
+        margin: 100px;
+    }
+    .nav-links > ul{
+        margin-left: 700px;
+    }
+    .popular-tour{
+        justify-content: space-between;
+        margin-right: 0;
+        gap: 100px;
+        width: 1500px;
+    }
+    .destination-area, .choose-us-area, .best-week-area, .news-letter{
+        width: 1500px;
+        position: relative;
+        margin-top: 100px;
+    }
+    footer{
+        width: 1080px;
+    }
+    .bottom-line{
+        width: auto;
+    }
+
 }
 
     
