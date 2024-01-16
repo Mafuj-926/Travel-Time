@@ -217,6 +217,10 @@ nav{
     border: 1px solid rgba(41, 206, 246, 0.20);
     border-radius: 16px;
 }
+.best-area-img{
+    display: flex;
+    gap: 40px;
+}
 .best-week-text{
     padding: 20px 35px;
 }
@@ -409,8 +413,9 @@ footer img{
         text-align: center;
         font-size: 10px;
     }
-    .cox-img{
-        margin-left: 30px;
+    .best-area-img{
+        flex-direction: column;
+        margin-left: 100px;
     }
     .newsletter-text{
         width: 250px;
@@ -442,31 +447,88 @@ footer img{
     }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1400px){
+@media screen and (min-width: 992px) and (max-width: 1400px) {
     header, main{
-        margin: 100px;
+        margin: 50px;
+        width: 950px;
     }
-    .nav-links > ul{
-        margin-left: 700px;
-    }
-    .popular-tour{
-        justify-content: space-between;
-        margin-right: 0;
-        gap: 100px;
-        width: 1500px;
-    }
-    .destination-area, .choose-us-area, .best-week-area, .news-letter{
-        width: 1500px;
-        position: relative;
-        margin-top: 100px;
-    }
-    footer{
-        width: 1080px;
-    }
-    .bottom-line{
-        width: auto;
-    }
-
+nav{
+    flex-direction: column;
+    justify-content: space-around;
+}
+.header-text{
+    width: 900px;
+}
+.header-text h1, .popular-tour-text h1, .destination-area h1, .choose-us-area h1{
+    font-size: 30px;
+}
+.text-input{
+    gap: 16px;
+    margin: 10px;
+}
+.popular-tour, .destination-area, .choose-us-area, .best-week-area{
+    width: 890px;
+    margin: 10px;
+    margin-right: 20px;
+}
+.popular-tour-text p, ul{
+    margin-bottom: 20px;
+}
+.first-collage, .second-collage, .third-collage, .card, .best-week-area{
+    flex-direction: column;
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+.first-collage-img-1, .first-collage-img-2, .first-collage-img-3, .first-collage-img-4, .first-collage-img-5, .first-collage-img-6, .first-collage-img-7{
+    margin-right: 10px;
+}
+.first-collage img, .second-collage img, .third-collage img{
+    width: 900px;
+    height: 376px;
+}
+.first-collage p, .second-collage p, .third-collage p{
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+}
+.card-1, .card-2, .card-3{
+    width: 800px;
+    margin-bottom: 50px;
+}
+.card-3{
+    margin: 15px;
+}
+.best-area-img{
+    gap: 140px;
+    padding-left: 120px;
+}
+.news-letter{
+    width: 890px;
+    gap: 110px;
+}
+.newsletter-text{
+    width: 350px;
+    height: 350px;
+}
+.line, .newsletter-text input, .newsletter-text button {
+    width: 240px;
+}
+.news-img img{
+    width: 460px;
+    height: 400px;
+}
+.saveup-text{
+    font-size: 0px;
+    width: 200px;
+    height: 78px;
+    left: 55%;
+    top: 68%;
+}
+.bottom-line{
+    width: 450px;
+    margin-right: 200px;
+}
 }
 
     
