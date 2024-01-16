@@ -129,6 +129,37 @@ nav{
     width: 540px;
     height: 550px;
 }
+/* destination-area */
+.destination-area h1, p{
+    text-align: center;
+    margin-top: 30px;
+} 
+.first-collage-img-1, .first-collage-img-2, .first-collage-img-3, .first-collage-img-4, .first-collage-img-5, .first-collage-img-6, .first-collage-img-7{
+    position: relative;
+    margin-right: 150px;
+}
+.first-collage p, .second-collage p, .third-collage p{
+    position: absolute;
+    color: #FFF;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 28px;
+}
+.first-collage, .second-collage, .third-collage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    gap: 10px;
+} 
+.first-collage img, .third-collage img{
+    width: 673px;
+    height: 350px;
+}
+
+
+
 
 
 
@@ -184,6 +215,24 @@ nav{
         width: 338px;
         height: 342px;
         border-radius: 16px;
+    }
+    .first-collage, .second-collage, .third-collage{
+        flex-direction: column;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .first-collage-img-1, .first-collage-img-2, .first-collage-img-3, .first-collage-img-4, .first-collage-img-5, .first-collage-img-6, .first-collage-img-7{
+        margin-right: 10px;
+    }
+    .first-collage img, .second-collage img, .third-collage img{
+        width: 335px;
+        height: 176px;
+    }
+    .first-collage p, .second-collage p, .third-collage p{
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 20px;
     }
 }
     
