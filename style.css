@@ -130,10 +130,20 @@ nav{
     height: 550px;
 }
 /* destination-area */
-.destination-area h1, p{
+.destination-area h1{
     text-align: center;
     margin-top: 30px;
+    font-size: 40px;
+    font-weight: 800;
 } 
+.destination-area p{
+    text-align: center;
+    margin-bottom: 50px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-weight: 400;
+    line-height: 26px;
+}
 .first-collage-img-1, .first-collage-img-2, .first-collage-img-3, .first-collage-img-4, .first-collage-img-5, .first-collage-img-6, .first-collage-img-7{
     position: relative;
     margin-right: 150px;
@@ -156,6 +166,43 @@ nav{
 .first-collage img, .third-collage img{
     width: 673px;
     height: 350px;
+}
+/* Choose us area */
+.choose-us-area h1{
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+.choose-us-area > p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 50px;
+}
+.card{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-1, .card-3{
+    width: 573px;
+    height: 210px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+}
+.card-2{
+    width: 573px;
+    height: 210px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 35px;
+}
+.card-3{
+    margin: 20px 180px 20px 480px;
 }
 
 
@@ -216,7 +263,7 @@ nav{
         height: 342px;
         border-radius: 16px;
     }
-    .first-collage, .second-collage, .third-collage{
+    .first-collage, .second-collage, .third-collage, .card{
         flex-direction: column;
         margin-right: 0;
         margin-bottom: 10px;
@@ -233,6 +280,14 @@ nav{
         left: 50%;
         transform: translate(-50%,-50%);
         font-size: 20px;
+    }
+    .card-1, .card-2, .card-3{
+        width: 250px;
+        height: 210px;
+        margin-bottom: 15px;
+    }
+    .card-3{
+        margin: 0px 15px 15px 15px;
     }
 }
     
